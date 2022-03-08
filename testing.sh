@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello world"
+echo "We are looking into Git command and enabled gitscm"
