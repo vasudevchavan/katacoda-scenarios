@@ -1,10 +1,10 @@
 pipeline{
     agent any
-    stages{"Entering Git"}
-        stage{
+    stages {
+        stage("Entering Git") {
             steps{
                 echo "We are working"
             }
         }
-
+    }
 }
