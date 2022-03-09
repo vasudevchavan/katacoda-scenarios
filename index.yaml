@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.319.3
-    created: "2022-03-09T12:11:46.512232+05:30"
+    created: "2022-03-09T12:27:30.278943+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -33,14 +33,14 @@ entries:
     - https://github.com/bitnami/bitnami-docker-jenkins
     - https://jenkins.io/
     urls:
-    - jenkins-9.0.6.tgz
+    - https://github.com/vasudevchavan/katacoda-scenarios/jenkins-9.0.6.tgz
     version: 9.0.6
   mysql:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-03-09T12:11:46.515393+05:30"
+    created: "2022-03-09T12:27:30.281784+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -67,14 +67,14 @@ entries:
     - https://github.com/bitnami/bitnami-docker-mysql
     - https://mysql.com
     urls:
-    - mysql-8.8.26.tgz
+    - https://github.com/vasudevchavan/katacoda-scenarios/mysql-8.8.26.tgz
     version: 8.8.26
   spark:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.1
-    created: "2022-03-09T12:11:46.518805+05:30"
+    created: "2022-03-09T12:27:30.284909+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -98,6 +98,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-spark
     - https://spark.apache.org/
     urls:
-    - spark-5.9.3.tgz
+    - https://github.com/vasudevchavan/katacoda-scenarios/spark-5.9.3.tgz
     version: 5.9.3
-generated: "2022-03-09T12:11:46.509411+05:30"
+generated: "2022-03-09T12:27:30.275921+05:30"
